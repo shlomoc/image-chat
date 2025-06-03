@@ -119,6 +119,7 @@ Video creation functionality:
 | Variable | Description | Required |
 |----------|-------------|----------|
 | `GEMINI_API_KEY` | Google Gemini API key | Yes |
+| `REPLICATE_API_KEY` | Replicate API key  | Yes |
 
 ## Dependencies
 
