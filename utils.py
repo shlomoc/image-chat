@@ -93,4 +93,17 @@ def is_duplicate_generated_image(image_data, generated_images):
             return True
     return False
 
+def get_image_data_by_name(image_name, image_list):
+    """Retrieve image data dictionary from a list by its name.
 
+    Args:
+        image_name (str): The name of the image to find.
+        image_list (list): A list of image dictionaries (e.g., from st.session_state.images).
+
+    Returns:
+        dict or None: The image dictionary if found, otherwise None.
+    """
+    for img_data in image_list:
+        if img_data.get("name") == image_name:
+            return img_data
+    return None

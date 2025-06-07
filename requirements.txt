@@ -1,4 +1,5 @@
 google-genai
 pillow
 python-dotenv
-replicate 
+replicate
+streamlit
