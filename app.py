@@ -1,11 +1,5 @@
-import base64
 import os
-import io
-import uuid
-import shutil
-import pathlib
 import streamlit as st
-from PIL import Image
 import gemini_experimental  # Import our Gemini module
 import utils  # Import our utility module
 import video_generation  # Import our video generation module
@@ -75,8 +69,7 @@ def generate_response(prompt):
 
 
 # App UI
-st.title("Gemini Image Chat")
-st.markdown("Upload images and chat with Gemini about them. Gemini can generate both text and images in response.")
+st.title("Image Chat")
 
 # Sidebar for image upload and management
 with st.sidebar:

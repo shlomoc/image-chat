@@ -51,6 +51,7 @@ def render_chat_tab(st_session_state, gemini_api_key_param, save_binary_file_fun
     """Renders the 'Image Chat' tab UI and handles its logic."""
     # Display chat messages in the chat container first
     with chat_container:
+        st.markdown("Upload images and chat about them. Gemini can generate images in response.")
         for message in st_session_state.messages:
             with st.chat_message(message["role"]):
                 if "images" in message and message["images"]:
