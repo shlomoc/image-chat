@@ -4,7 +4,7 @@ A Streamlit-based web application that enables interactive conversations with Go
 
 ## Features
 
-- **Multi-modal Chat**: Upload multiple images and have conversations with Gemini about them.
+- **Multi-modal Chat**: Upload multiple images and have conversations with Gemini about them. (uses `gemini-2.0-flash-preview-image-generation` model)
 - **Image Generation**: Ask Gemini to generate images based on your prompts.
 - **Image-to-Video Generation**: Create videos from uploaded or AI-generated images using additional prompts (uses `wavespeedai/wan-2.1-i2v-480p` model via Replicate).
 - **Text-to-Video Generation**: Generate videos directly from text prompts (e.g., using `google/veo-3` model or similar via Replicate).
